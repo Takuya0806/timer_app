@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', sans-serif;
+    font-size: 14px;
+    background: #eee;
+}
+
+header {
+    background: #54dbc2;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 1px #eee;
+    line-height: 100px;
+}
+
+.container {
+    width: 445px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+#timer {
+    font-size: 40px;
+    background: #ddd;
+    height: 120px;
+    line-height: 120px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.controls {
+    overflow: hidden;
+}
+
+.controls > div {
+    cursor: pointer;
+    user-select: none;
+    background: #ddd;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    border-radius: 5px;
+}
+
+.controls > div + div {
+    margin-left: 15px;
+}
+
+.controls > div:hover {
+    opacity: 0.7;
+}
